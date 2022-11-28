@@ -1,6 +1,13 @@
 # TrueBees project (Data Entry)
-Python scripts to Upload-Download images on Social Media (Facebook, WhatsApp, Twitter, Telegram)
+Python scripts to Upload-Download images on Social Media (Facebook, WhatsApp, Twitter, Telegram).
+
 To process the images, it is first necessary to copy the folder containing them inside the **Code** directory of this repository.
+
+After that, you will have to execute the **main.py** script, providing the social media name (where to process the images) and the folder name (where the images are saved), as in this example:
+
+```
+python main.py -s facebook -f images
+```
 
 ## Facebook
 The APIs used for this social are those officially supported from Facebook, called Facebook GraphAPI.

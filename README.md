@@ -69,6 +69,9 @@ The Access Token expires after 24 hours after it was generated. So you will have
 "access_point": "https://web.telegram.org/z/#53**64"
 ```
 
+### Acknowledgements
+This repository is inspired by a similar one, given by Ettore Maria Celozzi and Luca Ciabini from Università degli Studi di Firenze.
+
 
 
 

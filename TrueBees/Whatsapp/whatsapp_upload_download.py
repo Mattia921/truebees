@@ -147,10 +147,6 @@ def wrapper(folder:str):
         origin_path = "\\".join(["\\".join(str(pathlib.Path(__file__).parent.resolve()).split('\\')[:-1]), folder, imagename])
         destination_path = "\\".join(["\\".join(str(pathlib.Path(__file__).parent.resolve()).split('\\')[:-1]), "Processed", imagename])
 
-        print(origin_path)
-        print(destination_path)
-
-
         image_id = upload_image(folder, imagename, access_token, phone_id)
         image_url = query_media_url(image_id, access_token)
         download_and_save_img(image_url, imagename, access_token)

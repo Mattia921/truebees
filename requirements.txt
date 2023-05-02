@@ -1,0 +1,5 @@
+tweepy
+wget
+requests
+requests_toolbelt
+python-telegram-bot==13.15
